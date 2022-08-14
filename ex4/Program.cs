@@ -27,3 +27,7 @@ return result;
 string newText = Replace(text, ' ', '|'); // обращение к функции Replace с заданием аргументов 
                           //(в каком тексте, что менять,на что менять)
 Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replace(text, 'к', 'К'); // обращение к функции Replace с заданием аргументов 
+                          //(в каком тексте, что менять,на что менять)
+Console.WriteLine(newText);
